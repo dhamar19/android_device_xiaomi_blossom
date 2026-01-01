@@ -73,3 +73,6 @@ wifi.tethering.interface=ap0
 
 # Zygote
 ro.zygote.preload.enable=0
+
+# Los Maintainer
+ro.lineage.maintainer=dhamar19
