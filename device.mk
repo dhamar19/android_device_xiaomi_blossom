@@ -491,3 +491,6 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/blossom/blossom-vendor.mk)
+
+# Keys
+$(call inherit-product, vendor/private/keys/keys.mk)

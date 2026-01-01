@@ -13,12 +13,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/xiaomi/blossom/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
-# Include private signing keys
-# -include vendor/lineage-priv/keys/keys.mk
+TARGET_BOOT_ANIMATION_RES := 720
 
-PRODUCT_NAME := lineage_blossom
+PRODUCT_NAME := superior_blossom
 PRODUCT_DEVICE := blossom
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
